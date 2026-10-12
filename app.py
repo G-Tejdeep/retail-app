@@ -10,7 +10,7 @@ st.markdown("Interactive control tower analyzing customer lifetime value, retent
 # Load data directly from the root directory
 @st.cache_data
 def get_data():
-    return pd.read_csv("retail_customer_segments.csv")
+    return pd.read_csv("customer_segments.csv")
 
 df = get_data()
 
